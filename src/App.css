@@ -1,0 +1,11 @@
+.__react_component_tooltip {
+  border-radius: 40px !important;
+  padding: 16px 24px !important;
+  width: 400px !important;
+}
+
+@media only screen and (max-width: 900px) {
+  .__react_component_tooltip {
+    width: 180px !important;
+  }
+}
