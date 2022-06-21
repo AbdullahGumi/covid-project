@@ -62,7 +62,7 @@ export default function Hero() {
 			<Box className="container" sx={{ marginTop: '3rem' }}>
 				<Wrapper transitionDuration={1000}>
 					<Box sx={{ textAlign: 'center', width: { xs: 'auto	', md: 610 }, marginBottom: '4rem' }}>
-						<Typography sx={{ fontSize: { xs: 40, md: 64 }, marginBottom: '1rem', fontWeight: 700 }}>Lorem ipsum</Typography>
+						<Typography sx={{ fontSize: { xs: 40, md: 64 }, marginBottom: '1rem', fontWeight: 700 }}>Covid Tracker</Typography>
 						<Typography  sx={{ fontSize: { xs: 16, md: 18 } }}>COVID-19 affects different people in different ways. Infected people have had a wide range of symptoms reported – from mild symptoms to severe illness.</Typography>
 					</Box>
 					<Grid ref={ref} container spacing={4}>
