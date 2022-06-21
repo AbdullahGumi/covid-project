@@ -483,7 +483,7 @@ export default function CovidData() {
 						labels={labels} 
 						datasets={casesDataset}
 						headerText="Cases By Continent"
-						subText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit nam sed nullacursus massa."
+						subText="hover over a bar to view cases by country"
 					/>
 				</Box>
 				<Box sx={{ marginTop: '4rem' }}>
@@ -491,7 +491,7 @@ export default function CovidData() {
 						labels={labels} 
 						datasets={deathsDataset}
 						headerText="Deaths By Continent"
-						subText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit nam sed nullacursus massa."
+						subText="hover over a bar to view deaths by country"
 					/>
 				</Box>
 			</Box>
