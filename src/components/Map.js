@@ -74,7 +74,7 @@ export default function Map() {
             <Box className="container" sx={{ marginTop: '10rem' }}>
                 <Box>
                     <TextWithAnimation ref={ref1} delay='.2s' view={view1} sx={{ fontSize: { xs: 24, md: 32 }, fontWeight: 700, marginBottom: '2rem' }}>Interactive Map with Stats & Figures</TextWithAnimation>
-                    <TextWithAnimation ref={ref2} delay='.2s' view={view2} sx={{ fontSize: { xs: 16, md: 18 }, color: '#64649B', maxWidth: { xs: '100%', md: '50%' }}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit nam sed nullacursus massa.</TextWithAnimation>
+                    <TextWithAnimation ref={ref2} delay='.2s' view={view2} sx={{ fontSize: { xs: 16, md: 18 }, color: '#64649B', maxWidth: { xs: '100%', md: '50%' }}}>hover over a country to view all stats related to it</TextWithAnimation>
                 </Box>
                 <Box sx={{ marginTop: '2rem',}}>
                     <MapChart setTooltipContent={setContent} />
