@@ -153,7 +153,7 @@ export default function Profiles() {
             <Box className="container" sx={{ marginTop: '10rem', marginBottom: '2rem' }}>
                 <Box>
                     <TextWithAnimation ref={ref1} delay='.2s' view={view1} sx={{ fontSize: { xs: 24, md: 32 }, fontWeight: 700, marginBottom: '2rem' }}>Selected Profiles</TextWithAnimation>
-                    <TextWithAnimation ref={ref2} delay='.2s' view={view2} sx={{ fontSize: { xs: 16, md: 18 }, color: '#64649B', maxWidth: { xs: '100%', md: '50%' }}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit nam sed nullacursus massa.</TextWithAnimation>
+                    <TextWithAnimation ref={ref2} delay='.2s' view={view2} sx={{ fontSize: { xs: 16, md: 18 }, color: '#64649B', maxWidth: { xs: '100%', md: '50%' }}}>Graphical stats for each country</TextWithAnimation>
                 </Box>
                 <Grid container sx={{ marginBottom: '2rem'}}>
                 <GridWithAnimation ref={ref3} delay='.2s' view={view3} item xs={12}>
